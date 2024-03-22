@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "NextChat",
+  title: "Chat2Hub-免费GPT无限制使用",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",

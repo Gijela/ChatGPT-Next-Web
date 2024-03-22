@@ -1,0 +1,24 @@
+@import "../styles/animation.scss";
+
+.sub-scribe {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .sub-content {
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .sub-listItem {
+      box-sizing: border-box;
+      padding: 10px 20px;
+      height: 110px;
+    }
+  }
+}
