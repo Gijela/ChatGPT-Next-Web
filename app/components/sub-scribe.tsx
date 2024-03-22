@@ -17,25 +17,25 @@ const subPriceConfig: IDonateItem[] = [
   {
     key: "quarter",
     title: "体验卡",
-    subTitle: "体验使用 15 分钟 gpt4",
+    subTitle: "体验使用 15 分钟 gpt4，新增绘画功能",
     price: 0.1,
   },
   {
     key: "day",
     title: "日卡",
-    subTitle: "解除 gpt4 次数限制一天",
+    subTitle: "解除 gpt4 次数限制一天，新增绘画功能",
     price: 3,
   },
   {
     key: "week",
     title: "周卡",
-    subTitle: "解除 gpt4 次数限制一周",
+    subTitle: "解除 gpt4 次数限制一周，新增绘画功能",
     price: 15,
   },
   {
     key: "month",
     title: "月卡",
-    subTitle: "解除 gpt4 次数限制一个月",
+    subTitle: "解除 gpt4 次数限制一个月，新增绘画功能",
     price: 50,
   },
 ];
@@ -96,12 +96,12 @@ function DonateModal(props: {
         >
           <img
             style={{ width: 300, height: 300, objectFit: "contain" }}
-            src="https://s21.ax1x.com/2024/03/22/pFhnVsg.jpg"
+            src="/QR-code.jpg"
             alt="二维码"
           />
           <img
             style={{ width: 300, height: 300, objectFit: "contain" }}
-            src="https://s21.ax1x.com/2024/03/22/pFhM3SP.jpg"
+            src="/pay-demo.jpg"
             alt="付款演示"
           />
         </div>
@@ -216,7 +216,7 @@ export function Subscribe() {
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
                 style={{ width: 300, height: 300, objectFit: "contain" }}
-                src="https://s21.ax1x.com/2024/03/22/pFhMZLD.jpg"
+                src="/wx-card.jpg"
                 alt="微信二维码名片"
               />
             </div>
@@ -227,7 +227,7 @@ export function Subscribe() {
           <div style={{ padding: "10px 20px", boxSizing: "border-box" }}>
             <h3>网站免责声明</h3>
             <p>
-              本项目为开源项目，使用者必须在遵循 OpenAI 的
+              使用者必须在遵循 OpenAI 的
               <a
                 href="https://openai.com/policies/terms-of-use"
                 target="_blank"
@@ -235,7 +235,7 @@ export function Subscribe() {
                 使用条款
               </a>
               以及
-              <strong>法律法规</strong>的情况下使用，不得用于非法用途。
+              <strong>法律法规</strong>的情况下使用网站，不得用于非法用途。
             </p>
             <p>
               根据
