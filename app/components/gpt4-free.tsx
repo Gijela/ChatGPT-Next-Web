@@ -85,9 +85,8 @@ export function Gpt4Free() {
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
                 style={{
-                  height: 500,
-                  objectFit: "contain",
-                  border: "1px solid red",
+                  width: "100%",
+                  padding: 20,
                 }}
                 src="/course_step4.png"
                 alt="chat2hub 配置教程"

@@ -191,6 +191,7 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         <IconButton
+          icon={<PluginIcon />}
           text={shouldNarrow ? undefined : "免费 GPT4 模式"}
           className={styles["sidebar-bar-button"]}
           onClick={() => {
