@@ -35,7 +35,8 @@ export function Gpt4Free() {
         <List>
           <div style={{ padding: "10px 20px", boxSizing: "border-box" }}>
             <p>
-              扫描下方微信小程序二维码，在「聊天训练营预约报名」中点击「报名」，观看完广告即可解锁
+              扫描下方微信小程序二维码，在「聊天训练营第 16
+              期」中点击「报名」，即可在
               <span style={{ color: "#f63", fontWeight: 500 }}>
                 &nbsp;30 分钟内无限使用 GPT-4.
               </span>
