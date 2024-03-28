@@ -58,6 +58,10 @@ const Subscribe = dynamic(
   },
 );
 
+const Gpt4Free = dynamic(async () => (await import("./gpt4-free")).Gpt4Free, {
+  loading: () => <Loading noLogo />,
+});
+
 const MaskPage = dynamic(async () => (await import("./mask")).MaskPage, {
   loading: () => <Loading noLogo />,
 });
@@ -164,6 +168,7 @@ function Screen() {
               <Route path={Path.Home} element={<Chat />} />
               <Route path={Path.NewChat} element={<NewChat />} />
               <Route path={Path.Subscribe} element={<Subscribe />} />
+              <Route path={Path.Gpt4Free} element={<Gpt4Free />} />
               <Route path={Path.Masks} element={<MaskPage />} />
               <Route path={Path.Chat} element={<Chat />} />
               <Route path={Path.Settings} element={<Settings />} />

@@ -191,7 +191,21 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
       </div>
-
+      <div className={styles["sidebar-header-bar"]}>
+        <IconButton
+          icon={<PluginIcon />}
+          text={shouldNarrow ? undefined : "免费 GPT4 模式"}
+          className={styles["sidebar-bar-button"]}
+          onClick={() => {
+            if (config.dontShowMaskSplashScreen !== true) {
+              navigate(Path.Gpt4Free, { state: { fromHome: true } });
+            } else {
+              navigate(Path.Masks, { state: { fromHome: true } });
+            }
+          }}
+          shadow
+        />
+      </div>
       <div
         className={styles["sidebar-body"]}
         onClick={(e) => {

@@ -1,0 +1,18 @@
+@import "../styles/animation.scss";
+
+.gpt4-free {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .gpt4-content {
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}

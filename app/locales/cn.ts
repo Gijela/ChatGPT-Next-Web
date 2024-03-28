@@ -386,7 +386,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "订阅",
+    Name: "订阅 GPT4",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
