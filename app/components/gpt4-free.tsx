@@ -83,7 +83,13 @@ export function Gpt4Free() {
             </div>
 
             <p>2. 在「Chat2Hub」中使用 Api Key 解除 GPT-4 使用限制</p>
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
               <img
                 style={{
                   width: "100%",
@@ -91,6 +97,14 @@ export function Gpt4Free() {
                 }}
                 src="/course_step4.png"
                 alt="chat2hub 配置教程"
+              />
+              <img
+                style={{
+                  width: "100%",
+                  padding: 20,
+                }}
+                src="/course_step5.png"
+                alt="切换模型"
               />
             </div>
           </div>
