@@ -17,25 +17,25 @@ const subPriceConfig: IDonateItem[] = [
   {
     key: "quarter",
     title: "体验卡",
-    subTitle: "体验 15 分钟 gpt4，新增绘画、识图、链接读取",
+    subTitle: "体验 15 分钟 gpt4，新增绘画、识图、链接读取、与 PDF 聊天",
     price: 0.1,
   },
   {
     key: "day",
     title: "日卡",
-    subTitle: "解除 gpt4 限制一天，新增绘画、识图、链接读取",
+    subTitle: "解除 gpt4 限制一天，新增绘画、识图、链接读取、与 PDF 聊天",
     price: 3,
   },
   {
     key: "week",
     title: "周卡",
-    subTitle: "解除 gpt4 限制一周，新增绘画、识图、链接读取",
+    subTitle: "解除 gpt4 限制一周，新增绘画、识图、链接读取、与 PDF 聊天",
     price: 15,
   },
   {
     key: "month",
     title: "月卡",
-    subTitle: "解除 gpt4 限制一个月，新增绘画、识图、链接读取",
+    subTitle: "解除 gpt4 限制一个月，新增绘画、识图、链接读取、与 PDF 聊天",
     price: 50,
   },
 ];
