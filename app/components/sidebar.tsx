@@ -12,6 +12,7 @@ import DeleteIcon from "../icons/delete.svg";
 import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
 import DragIcon from "../icons/drag.svg";
+import Robot from "../icons/robot.svg";
 
 import Locale from "../locales";
 
@@ -194,7 +195,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "免费 GPT4 模式"}
+          text={shouldNarrow ? undefined : "免费GPT4"}
           className={styles["sidebar-bar-button"]}
           onClick={() => {
             if (config.dontShowMaskSplashScreen !== true) {
@@ -205,6 +206,17 @@ export function SideBar(props: { className?: string }) {
           }}
           shadow
         />
+        <Link
+          to={"https://pdf-gpt4.zeabur.app/"}
+          style={{ textDecoration: "none" }}
+        >
+          <IconButton
+            icon={<Robot />}
+            text={shouldNarrow ? undefined : "PDF 聊天 AI"}
+            className={styles["sidebar-bar-button"]}
+            shadow
+          />
+        </Link>
       </div>
       <div
         className={styles["sidebar-body"]}
