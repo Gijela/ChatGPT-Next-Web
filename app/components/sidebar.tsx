@@ -206,9 +206,11 @@ export function SideBar(props: { className?: string }) {
           }}
           shadow
         />
-        <Link
-          to={"https://pdf-gpt4.zeabur.app/"}
+        <a
+          href="https://pdfs.zeabur.app/"
           style={{ textDecoration: "none" }}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <IconButton
             icon={<Robot />}
@@ -216,7 +218,7 @@ export function SideBar(props: { className?: string }) {
             className={styles["sidebar-bar-button"]}
             shadow
           />
-        </Link>
+        </a>
       </div>
       <div
         className={styles["sidebar-body"]}
