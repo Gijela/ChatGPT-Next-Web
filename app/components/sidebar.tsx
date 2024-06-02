@@ -207,14 +207,14 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         <a
-          href="https://pdfs.zeabur.app/"
+          href="https://career.zeabur.app/"
           style={{ textDecoration: "none" }}
           target="_blank"
           rel="noopener noreferrer"
         >
           <IconButton
             icon={<Robot />}
-            text={shouldNarrow ? undefined : "PDF 聊天 AI"}
+            text={shouldNarrow ? undefined : "高薪工作AI"}
             className={styles["sidebar-bar-button"]}
             shadow
           />
